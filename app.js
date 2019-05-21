@@ -57,7 +57,7 @@ function lose(userChoice, computerChoice) {
   } else if (computerChoice === 'Grass') {
     loseWord = " absorbs ";
   }
-  result_div.innerHTML = userChoice + smallCompWord + loseWord + computerChoice + smallUserWord + " , you lost! "
+  result_div.innerHTML = computerChoice + smallCompWord + loseWord + userChoice + smallUserWord + " , you lost! "
   document.getElementById(userChoice).classList.add('red-glow');
   setTimeout(function () {
     document.getElementById(userChoice).classList.remove('red-glow')
