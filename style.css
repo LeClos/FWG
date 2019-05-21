@@ -1,0 +1,163 @@
+/*CSS for Fire, Water, Grass game created by Jared Le Clos  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+
+body {
+  background-color: rgb(31, 38, 59);
+}
+
+/* header */
+header {
+  background: #d2dcff;
+  padding: 20px;
+}
+
+
+
+header>h1 {
+  color: rgb(31, 38, 59);
+  text-align: center;
+  font-family: Asap, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header>p {
+  color: rgb(31, 38, 59);
+  font-family: Asap, sans-serif;
+  text-align: center;
+}
+
+/* score and choices */
+.score-board {
+  margin: 20px auto;
+  border: 3px solid white;
+  width: 200px;
+  color: white;
+  font-size: 40px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px 20px;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.badge {
+  background-color: #E2584D;
+  color: white;
+  font-size: 14px;
+  padding: 2px 10px;
+  font-family: sans-serif;
+}
+
+#user-label {
+  position: absolute;
+  top: 30px;
+  left: -20px;
+}
+
+#comp-label {
+  position: absolute;
+  top: 30px;
+  right: -30px;
+}
+
+.result {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.result>p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.choice {
+  display: inline-block;
+  border: 4px solid white;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 20px;
+  transition: all 0.3s ease;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background: rgb(8, 12, 22);
+}
+
+#Fire:hover {
+  background: rgb(78, 0, 0);
+}
+
+#Water:hover {
+  background: rgb(0, 10, 54);
+}
+
+#Grass:hover {
+  background: rgb(0, 31, 5);
+}
+
+.choice img {
+  width: 100px;
+  max-height: 100px;
+}
+
+.choices {
+  text-align: center;
+  margin: 50px 0;
+}
+
+#action-message {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*footer*/
+.jumbotron {
+  background-color: #d2dcff;
+  min-height: 80px;
+  padding: 0px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+.foot {
+  margin-bottom: 0px;
+}
+
+.insta {
+  max-width: 40px;
+  padding-left: 10px;
+}
+
+.fb {
+  max-width: 38px;
+}
+
+/* classes */
+.green-glow {
+  border: 4px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a
+}
+
+.red-glow {
+  border: 4px solid rgb(243, 87, 87);
+  box-shadow: 0 0 10px #ff0909;
+}
+
+.yellow-glow {
+  border: 4px solid rgb(253, 255, 118);
+  box-shadow: 0 0 10px #ffc400;
+}
