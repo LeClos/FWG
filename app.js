@@ -1,4 +1,4 @@
-// JS for Fire, Water, Grass game created by Jared Le Clos
+// JS file for Fire, Water, Grass game created by Jared Le Clos
 let userScore = 0;
 let compScore = 0;
 
