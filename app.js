@@ -16,7 +16,8 @@ const grass_div = document.getElementById("Grass")
 function getComputerChoice() {
   const choices = ['Fire', 'Water', 'Grass'];
   const randomNumber = Math.floor(Math.random() * 3);
-  return choices[randomNumber];
+  var choicee = choices[randomNumber];
+  return choicee;
 }
 
 // win, lose, draw scenarios and actions
