@@ -8,19 +8,19 @@
 @import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
 
 body {
-  background-color: rgb(31, 38, 59);
+  background: linear-gradient(to right, rgba(28, 0, 89, 1) 0%, rgba(59, 0, 84, 1) 92%, rgba(59, 0, 84, 1) 100%);
 }
 
 /* header */
 header {
-  background: #d2dcff;
+  background: #ead7ff;
   padding: 10px 20px;
 }
 
 
 
 header>h1 {
-  color: rgb(31, 38, 59);
+  color: rgb(51, 0, 94);
   text-align: center;
   font-family: Asap, sans-serif;
   font-size: 40px;
@@ -49,8 +49,8 @@ header>p {
 }
 
 .badge {
-  background-color: #E2584D;
-  color: white;
+  background-color: rgb(255, 93, 187);
+  color: #ead7ff;
   font-size: 14px;
   padding: 2px 10px;
   font-family: sans-serif;
@@ -71,7 +71,7 @@ header>p {
 .result {
   font-size: 40px;
   font-family: sans-serif;
-  color: white;
+  color: #ead7ff;
 }
 
 .result>p {
@@ -118,7 +118,7 @@ header>p {
 
 #action-message {
   text-align: center;
-  color: white;
+  color: #ead7ff;
   font-family: sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -132,7 +132,7 @@ header>p {
 
   #action-message {
     text-align: center;
-    color: white;
+    color: #ead7ff;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 16px;
@@ -152,7 +152,7 @@ header>p {
 
 /*footer*/
 .jumbotron {
-  background-color: #d2dcff;
+  background-color: #ead7ff;
   min-height: 80px;
   padding: 0px;
   position: absolute;
