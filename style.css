@@ -157,6 +157,7 @@ header>p {
   background-color: #ead7ff;
   min-height: 80px;
   padding: 0px;
+  margin: 0px;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -196,7 +197,7 @@ header>p {
   color: #ff0909;
 }
 
-@media screen and (max-height: 750px) {
+@media screen and (max-height: 690px) {
 
 
   .result p {
@@ -210,6 +211,20 @@ header>p {
 
   .score-board span {
     font-size: 30px;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  header h1 p {
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .jumbotron {
+    position: relative;
   }
 }
 }
