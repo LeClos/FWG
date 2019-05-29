@@ -195,3 +195,21 @@ header>p {
 .red-font {
   color: #ff0909;
 }
+
+@media screen and (max-height: 750px) {
+
+
+  .result p {
+    font-size: 16px;
+  }
+
+  .choice img {
+    width: 30px;
+    max-height: 30px;
+  }
+
+  .score-board span {
+    font-size: 30px;
+  }
+}
+}
