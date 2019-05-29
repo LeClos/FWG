@@ -7,8 +7,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
 
+html,
 body {
   background: linear-gradient(to right, rgba(28, 0, 89, 1) 0%, rgba(59, 0, 84, 1) 92%, rgba(59, 0, 84, 1) 100%);
+  overflow: auto;
 }
 
 /* header */
