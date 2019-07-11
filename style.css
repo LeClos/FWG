@@ -21,6 +21,7 @@ header {
 
 
 
+
 header>h1 {
   color: rgb(51, 0, 94);
   text-align: center;
@@ -149,6 +150,10 @@ header>p {
     width: 50px;
   }
 
+  #mybtn {
+    font-size: 10px;
+  }
+
 }
 
 
@@ -226,5 +231,8 @@ header>p {
   .jumbotron {
     position: relative;
   }
-}
+
+  #mybtn {
+    font-size: 10px;
+  }
 }
