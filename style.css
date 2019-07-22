@@ -127,36 +127,6 @@ header>p {
   font-size: 20px;
 }
 
-@media only screen and (max-width: 608px) {
-  .choice img {
-    width: 50px;
-    max-height: 50px;
-  }
-
-  #action-message {
-    text-align: center;
-    color: #ead7ff;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-  }
-
-  .result p {
-    font-size: 30px;
-    padding: 20px;
-  }
-
-  .rb {
-    width: 50px;
-  }
-
-  #mybtn {
-    font-size: 10px;
-  }
-
-}
-
-
 /*footer*/
 .jumbotron {
   background-color: #ead7ff;
@@ -202,9 +172,8 @@ header>p {
   color: #ff0909;
 }
 
+/* media queries */
 @media screen and (max-height: 690px) {
-
-
   .result p {
     font-size: 16px;
   }
@@ -235,4 +204,33 @@ header>p {
   #mybtn {
     font-size: 10px;
   }
+}
+
+@media only screen and (max-width: 608px) {
+  .choice img {
+    width: 50px;
+    max-height: 50px;
+  }
+
+  #action-message {
+    text-align: center;
+    color: #ead7ff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .result p {
+    font-size: 30px;
+    padding: 20px;
+  }
+
+  .rb {
+    width: 50px;
+  }
+
+  #mybtn {
+    font-size: 10px;
+  }
+
 }
