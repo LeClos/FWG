@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/FWG/static/css/main.a47a5542.chunk.css",
+    "main.js": "/FWG/static/js/main.3ac87df8.chunk.js",
+    "main.js.map": "/FWG/static/js/main.3ac87df8.chunk.js.map",
+    "runtime~main.js": "/FWG/static/js/runtime~main.a66eaccb.js",
+    "runtime~main.js.map": "/FWG/static/js/runtime~main.a66eaccb.js.map",
+    "static/css/2.266e55a5.chunk.css": "/FWG/static/css/2.266e55a5.chunk.css",
+    "static/js/2.3f10252b.chunk.js": "/FWG/static/js/2.3f10252b.chunk.js",
+    "static/js/2.3f10252b.chunk.js.map": "/FWG/static/js/2.3f10252b.chunk.js.map",
+    "index.html": "/FWG/index.html",
+    "precache-manifest.fb22a93c674aa618fdb2826c3254c7cb.js": "/FWG/precache-manifest.fb22a93c674aa618fdb2826c3254c7cb.js",
+    "service-worker.js": "/FWG/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/FWG/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.a47a5542.chunk.css.map": "/FWG/static/css/main.a47a5542.chunk.css.map",
+    "static/media/paper.png": "/FWG/static/media/paper.2def3dfc.png",
+    "static/media/rock.jpg": "/FWG/static/media/rock.927ee8f5.jpg",
+    "static/media/scissors.png": "/FWG/static/media/scissors.fae64281.png"
+  }
+}
