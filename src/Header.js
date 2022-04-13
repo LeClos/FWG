@@ -7,7 +7,7 @@ function Header() {
     <header>
       <div className="wrapper" style={{ textAlign: "center" }}>
         <a
-          href="https://leclos.github.io/jWeb/projects.html"
+          href="https://leclos.github.io/jweb2"
           className="btn btn-info"
           role="button"
           id="mybtn"
